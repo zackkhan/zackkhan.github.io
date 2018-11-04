@@ -1,36 +1,220 @@
 <!DOCTYPE html>
- <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Zack Khan</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="zack_circle_headshot.png">
-    </head>
-    <body>
-        <div class ="centered">
-            <img class = "headshot" src = "zack_circle_headshot.png"/>
-            <h1 class = "name">Zack Khan</h1>
-            <p>Hi! I'm a Computer Science undergrad at the University of <a class="MD" href = "http://www.cs.umd.edu/"/>Maryland</a>.</p>
-            <p>I was a <a class="KPCB" href = "http://fellows.kleinerperkins.com/">Kleiner Perkins Engineering Fellow</a> on the growth team at <a class="Handshake" href = "https://www.joinhandshake.com/">Handshake</a>.</p>
-            <p>I founded and taught <a class="RL" href = "http://cmsc389f.umd.edu/">CMSC389F</a>, Reinforcement Learning, during Spring 2018.</p>
-            <p>I was also the co-executive director of <a class = "Bitcamp" href = "https://bit.camp/">Bitcamp 2017</a>, UMD’s largest hackathon.</p>
-            <span>
-                <a class = "icon-link" href = "resume.pdf">
-                    <img class = "icon" src = "curriculum.png"/>
-                </a>
-                <a class = "icon-link" href = "https://www.linkedin.com/in/zackkhan101/">
-                    <img class = "icon" src = "linkedin1.png"/>
-                </a>
-                <a class = "icon-link" href = "https://github.com/zackkhan">
-                    <img class = "icon" src = "github-1.png"/>
-                </a>
-                <a class = "icon-link" href = "https://twitter.com/zachariyyak">
-                    <img class = "icon" src = "twitter1.png"/>
-                </a>
-            </span>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Zack Khan</title>
+
+    <!-- Fonts and Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/2-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Zack Khan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog-home.html">Blog</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li> -->
+          </ul>
         </div>
-    </body>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class = "intro">
+          <img class = "headshot" src = "zack_circle_headshot.png"/>
+          <p class = "intro-text">I'm Zack, a Computer Science student at the University of Maryland</p>
+          <p class = "intro-text"> <a href = "http://fellows.kleinerperkins.com/">Kleiner Perkins Fellow 2018</a>, Venture Partner @ <a href="https://contrarycap.com/">Contrary Capital</a></p>
+          <p class = "intro-text">Most Recent Blog Post: <a href="blog.html">Being Mortal</a></p>
+        </div>
+
+      <!-- Page Heading -->
+      <!-- <h1 class="my-4">Zack Khan</h1> -->
+
+
+      <H4>Activities</H4>
+      <div class="row">
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="https://bit.camp/"><img class="card-img-top" src="bitcamp.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://bit.camp/">Bitcamp</a>
+                </h4>
+                <p class="card-text">Directed Bitcamp, the largest hackathon on the east coast. Key metrics: 1300+ attendees, raised $200,000, implemented new programs for entrepreneurs and designers and branding campaign for new "Mark Your Trail" theme </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="CMSC389F/index.html"><img class="card-img-top" src="rl2.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="CMSC389F/index.html">Reinforcement Learning</a>
+                </h4>
+                <p class="card-text">Created and taught a for-credit course on Reinforcement Learning (CMSC389F) within the UMD Computer Science department. I created course content, lecture weekly, and graded weekly problem sets and projects.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="https://startupshell.org/"><img class="card-img-top"  src="http://mattfan.me/portfolio/startup-shell/startupshell.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://startupshell.org/">Startup Shell</a>
+                </h4>
+                <p class="card-text">Startup Shell is a student-run incubator of $40M+ in collective value. As Director of Community for Shell, I organize events and initiatives for members of our diverse community of entrepreneurs </p>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+
+      <H4>Projects</H4>
+      <div class="row">
+        <div class="col-lg-6 portfolio-item">
+            <div class="card h-100">
+              <a href="https://blog.joinhandshake.com/students/my-summer-at-handshake-putting-myself-in-the-shoes-of-all-students"><img class="card-img-top" src="handshake2.png"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://blog.joinhandshake.com/students/my-summer-at-handshake-putting-myself-in-the-shoes-of-all-students">Handshake Referrals Program</a>
+                </h4>
+                <p class="card-text"><a href = "https://techcrunch.com/2018/10/31/handshake-a-linkedin-for-university-students-and-diversity-raises-40m-on-a-275m-valuation/">Handshake's</a> mission is to democratize opportunity, allowing all students to have equal access to jobs. As a growth engineer, I helped develop a referrals program that incentivized students to refer each other to join Handshake.</p>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="https://gotechnica.org/"><img class="card-img-top" src="technicaapp2.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="https://gotechnica.org/">Technica Mentorship App</a>
+              </h4>
+              <p class="card-text">As an organizer of Technica, the world's largest all-women hackathon, I learned after speaking with previous attendees that many users were not familiar with Slack, our main medium for mentorship. In response, I created a feature within our mobile app that allows attendees to ask questions via an easy-to-use form. The backend server then posts the question to Slack, through which a team of mentors can claim and meet the attendees in-person to answer their question  </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="mealapp5.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Meal Buddy</a>
+              </h4>
+              <!-- TODO: (Link to reddit posts) -->
+              <p class="card-text">Loneliness is a huge issue, especially on a large campus like UMD. I created an app to pair people for meals at diners, so no one has to eat alone if they don't want to.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+            <div class="card h-100">
+              <a href="https://devpost.com/zackk101"><img class="card-img-top" src="hackathon_projects.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://devpost.com/zackk101">Hackathon & Side Projects</a>
+                </h4>
+                <p class="card-text">Created an <a href = "https://devpost.com/software/scavengar">AR scavenger hunt game</a> (3rd place, PennApps), 
+                  <br/> a <a href="https://devpost.com/software/safe-gun">smart gun</a> (Winner, HackUVA), 
+                  <br/> a <a href="https://devpost.com/software/alexagram">holographic virtual assistant</a> (3rd place, a16z Battle of the Hacks), 
+                  <br/> and a <a href="https://github.com/zackkhan/PhillipsCollection3DArtGallery">VR drawing experience </a> for Phillips Collection museum in DC  </p>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="https://drive.google.com/file/d/159VFoKo-REcn-1ZNy2p-syjbOqTKUsHA/view?usp=sharing"><img class="card-img-top" src="rnn.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="https://drive.google.com/file/d/159VFoKo-REcn-1ZNy2p-syjbOqTKUsHA/view?usp=sharing">Domain-Specific Question Generation for Chatbots (Machine Learning)  </a>
+              </h4>
+              <p class="card-text">Currently working on a paper that proposes a domain-specific approach to question generation, incorporating knowledge about a given domain to generate more relevant questions. Project proposal can be found <a href="https://drive.google.com/file/d/159VFoKo-REcn-1ZNy2p-syjbOqTKUsHA/view?usp=sharing">here.</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="http://kodactive.com/"><img class="card-img-top" src="community_school.JPG" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="http://kodactive.com/">Kodactive</a>
+              </h4>
+              <p class="card-text">Developed Kodactive, a platform for teaching students Computer Science using programmable toys. We gave workshops to local schools and won 3rd place at Maryland Do Good Challenge, 2nd place at UMD Fishbowl Entrepreneurship Competition. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Pagination -->
+      <!-- <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul> -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Zack Khan</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
 </html>
